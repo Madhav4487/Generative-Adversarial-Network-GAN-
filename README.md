@@ -48,6 +48,21 @@ This project implements a **Conditional Generative Adversarial Network (GAN)** b
   - Generating a latent vector `z` from a standard normal distribution
   - Feeding it along with a **binary condition** (0 or 1)
   - Producing new `28x56` digit-pair images
+    
+## 🧭 Key Learnings
+
+-Implementing WGAN-GP for stable GAN training
+-Creating a custom PyTorch dataset for multi-digit image generation
+-Training conditional generative models
+-Visualizing training stability and sample diversity
+
+## 🔮 Future Work
+
+-Add support for class-conditional generation using digit class embeddings
+-Compare performance with Conditional VAEs and StyleGAN variants
+-Explore multi-label conditioning using auxiliary classifiers
+-Deploy model with Streamlit for interactive demo
+
 
 ## 📬 Contact
 
