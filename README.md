@@ -41,12 +41,6 @@ This project implements a **Conditional Generative Adversarial Network (GAN)** b
 - **Noise dimension**: 100
 
 
-## 📊 Loss Curves
-
-Generator and Critic losses are logged across all training iterations and visualized to show convergence.
-
-![Loss Curve](images/loss_plot.png) 
-
 
 ## 🧪 Image Generation
 
